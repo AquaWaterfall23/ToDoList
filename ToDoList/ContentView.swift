@@ -28,13 +28,18 @@ struct ContentView: View {
         }
         List {
             ForEach (toDoItems) { toDoItem in
+                if toDoItem.isImportant == true {
+                    Text("‼️" + toDoItem.title)
+                } else {
+                    Text(toDoItem.title)
+                }
                 Text(toDoItem.title)
-                
             }
-}
+        }
+        .listStyle(.plain)
         
         if showNewTask {
-            NewToDoView(title: "", isImportant: false, toDoItems: $toDoItems)
+            NewToDoView(title: "", isImportant: false, toDoItems: $toDoItems, showNewTask: $showNewTask)
         }
     }
 }
