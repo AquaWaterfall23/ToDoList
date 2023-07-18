@@ -13,6 +13,7 @@
 		BDA2858A2A66E7440001A7B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA285892A66E7440001A7B7 /* Preview Assets.xcassets */; };
 		BDA285912A66E7950001A7B7 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA285902A66E7950001A7B7 /* ToDoItem.swift */; };
 		BDA285932A66EBEB0001A7B7 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA285922A66EBEB0001A7B7 /* NewToDoView.swift */; };
+		BDC765712A67180100B71357 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC765702A67180100B71357 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BDA285892A66E7440001A7B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDA285902A66E7950001A7B7 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		BDA285922A66EBEB0001A7B7 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDC765702A67180100B71357 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BDA285822A66E7430001A7B7 /* ToDoListApp.swift */,
 				BDA285842A66E7430001A7B7 /* ContentView.swift */,
 				BDA285922A66EBEB0001A7B7 /* NewToDoView.swift */,
+				BDC765702A67180100B71357 /* Persistence.swift */,
 				BDA285902A66E7950001A7B7 /* ToDoItem.swift */,
 				BDA285862A66E7440001A7B7 /* Assets.xcassets */,
 				BDA285882A66E7440001A7B7 /* Preview Content */,
@@ -147,6 +150,7 @@
 				BDA285832A66E7430001A7B7 /* ToDoListApp.swift in Sources */,
 				BDA285912A66E7950001A7B7 /* ToDoItem.swift in Sources */,
 				BDA285932A66EBEB0001A7B7 /* NewToDoView.swift in Sources */,
+				BDC765712A67180100B71357 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
