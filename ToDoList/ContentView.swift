@@ -33,7 +33,6 @@ struct ContentView: View {
                 } else {
                     Text(toDoItem.title)
                 }
-                Text(toDoItem.title)
             }
         }
         .listStyle(.plain)
